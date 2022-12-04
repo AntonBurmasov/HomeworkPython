@@ -16,3 +16,4 @@ while i < len(list):
     i += 2
 
 print(sum)
+
