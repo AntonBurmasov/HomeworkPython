@@ -12,7 +12,7 @@ while d * d <= N:
         d += 1
 
 if N > 1:
-            lst.append(N)
+    lst.append(N)
 
 
 print(lst)
