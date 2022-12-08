@@ -24,7 +24,9 @@ for i in range(0, k + 1):
     else:
         polynom += f'{number[i]} = 0'
 
-with open('polynom2.txt', 'w') as data:
+print(polynom)
+
+with open('polynom.txt', 'w') as data:
     data.write(polynom)
 
 
