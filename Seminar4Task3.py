@@ -17,8 +17,6 @@ while i < len(lst):
         lst[i] = ""
     i += 1
 
-
-
 j = 0
 while j < len(new_lst):
     if new_lst[j] in lst:
