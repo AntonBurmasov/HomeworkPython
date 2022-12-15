@@ -11,7 +11,7 @@
 
 import random
 
-type_of_game = int(input("Выберите режим игры, введите 1 для одиночной игры против компьютер, 2- для игры против другого игрока."))
+type_of_game = int(input("Выберите режим игры, введите 1 для одиночной игры против компьютер, 2 - для игры против другого игрока."))
 order = random.randint(1, 2)
 if type_of_game == 1:
     print("Дано 200 конфет,  игрок и компьютер могут брать не больше 28 конфет, кто заберет последние- выигрывает.")
@@ -82,7 +82,7 @@ elif type_of_game == 2:
     if order == 1:
         print("Первым ходит игрок 1.")
         while candys > 0:
-            minus_candys = int(input("Первый игрок, введите, сколько конфет вычесть из общей суммы"))
+            minus_candys = int(input("Первый игрок, введите, сколько конфет вычесть из общей суммы: "))
             if minus_candys < 29 and minus_candys > 0:
                 candys = candys - minus_candys
                 print(f"Игрок 1 забрал {minus_candys} конфет. Осталось конфет {candys}")
@@ -99,13 +99,13 @@ elif type_of_game == 2:
             if candys == 0 or candys < 0:
                 print("Победил игрок 1")
                 exit()
-            minus_second = int(input("Второй игрок, введите, сколько конфет вычесть из общей суммы"))
+            minus_second = int(input("Второй игрок, введите, сколько конфет вычесть из общей суммы: "))
             if minus_second < 29 and minus_second > 0:
                 candys = candys - minus_second
                 print(f"Игрок 2 забрал {minus_second} конфет. Осталось конфет {candys}")
             else:
                 print("Число вычитаемых конфет должно быть от 1 до 28")
-                minus_second = int(input("Второй игрок, введите, сколько конфет вычесть из общей суммы"))
+                minus_second = int(input("Второй игрок, введите, сколько конфет вычесть из общей суммы: "))
                 if minus_second < 29 and minus_second > 0:
                     candys = candys - minus_second
                     print(f"Игрок 2 забрал {minus_second} конфет. Осталось конфет {candys}")
@@ -119,13 +119,13 @@ elif type_of_game == 2:
     else:
         print("Первым ходит игрок 2.")
         while candys > 0:
-            minus_candys = int(input("Второй игрок, введите, сколько конфет вычесть из общей суммы"))
+            minus_candys = int(input("Второй игрок, введите, сколько конфет вычесть из общей суммы: "))
             if minus_candys < 29 and minus_candys > 0:
                 candys = candys - minus_candys
                 print(f"Игрок 2 забрал {minus_candys} конфет. Осталось конфет {candys}")
             else:
                 print("Число вычитаемых конфет должно быть от 1 до 28")
-                minus_candys = int(input("Второй игрок, введите, сколько конфет вычесть из общей суммы"))
+                minus_candys = int(input("Второй игрок, введите, сколько конфет вычесть из общей суммы: "))
                 if minus_candys < 29 and minus_candys > 0:
                     candys = candys - minus_candys
                     print(f"Игрок 2 забрал {minus_candys} конфет. Осталось конфет {candys}")
@@ -136,13 +136,13 @@ elif type_of_game == 2:
             if candys == 0 or candys < 0:
                 print("Победил игрок 2")
                 exit()
-            minus_second = int(input("Первый игрок, введите, сколько конфет вычесть из общей суммы"))
+            minus_second = int(input("Первый игрок, введите, сколько конфет вычесть из общей суммы: "))
             if minus_second < 29 and minus_second > 0:
                 candys = candys - minus_second
                 print(f"Игрок 1 забрал {minus_second} конфет. Осталось конфет {candys}")
             else:
                 print("Число вычитаемых конфет должно быть от 1 до 28")
-                minus_second = int(input("Первый игрок, введите, сколько конфет вычесть из общей суммы"))
+                minus_second = int(input("Первый игрок, введите, сколько конфет вычесть из общей суммы: "))
                 if minus_second < 29 and minus_second > 0:
                     candys = candys - minus_second
                     print(f"Игрок 1 забрал {minus_second} конфет. Осталось конфет {candys}")
@@ -155,7 +155,7 @@ elif type_of_game == 2:
                 exit()
 
 else:
-    print("Режим игры может быть только 1 или 2")
+    print("Режим игры может быть только 1 или 2.")
     exit()
 
 
