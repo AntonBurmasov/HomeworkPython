@@ -1,3 +1,3 @@
-# pythonHomework2
+# pythonHomework
 Добрый день! Буду благодарен за любую обратную связь.  
 
