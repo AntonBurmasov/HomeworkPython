@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77302fde-eeec-4ecb-81f1-b92ec09e6908" name="Changes" comment="initial">
-      <change afterPath="$PROJECT_DIR$/Seminar5Task3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Seminar5Task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar5Task2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671192954949</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="initial">
+      <created>1671193481624</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1671193481624</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
