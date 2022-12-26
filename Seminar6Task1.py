@@ -7,19 +7,19 @@
 import random
 
 
-def f_rand(i):
+def f_rand():
     return random.randint(1, 101)
 
 
-lst = [f_rand(i) for i in range(1, 11)]
+lst = [f_rand() for i in range(1, 11)]
 
 print(lst)
 
 sum_odd = 0
-i = 1
+j = 1
 
-while i < len(lst):
-    sum_odd = sum_odd + lst[i]
-    i += 2
+while j < len(lst):
+    sum_odd = sum_odd + lst[j]
+    j += 2
 
-print(sum_odd)
+print(f"Cумма элементов списка, стоящих на нечетной позиции, равна {sum_odd}")
