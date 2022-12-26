@@ -7,7 +7,7 @@ print("Введите  число.")
 n = int(input())
 
 
-list = [x for x in range (n * -1, n + 1)]
+list = [x for x in range(n * -1, n + 1)]
 
 
 
